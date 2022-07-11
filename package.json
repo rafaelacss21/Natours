@@ -4,7 +4,7 @@
   "description": "landing page for natours",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
   },
   "repository": {
     "type": "git",
@@ -17,8 +17,6 @@
   },
   "homepage": "https://github.com/rafaelacss21/Natours#readme",
   "devDependencies": {
-    "nodemon": "^2.0.19"
-  },
-  "compile:sass": "node-sass sass/main.scss css/style.comp.css",
-  "watch:sass": "nodemon -e scss -x \"npm run compile:sass\""
+    "node-sass": "^7.0.1"
+  }
 }
