@@ -1,0 +1,24 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "landing page for natours",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafaelacss21/Natours.git"
+  },
+  "author": "Rafaela Stehling",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rafaelacss21/Natours/issues"
+  },
+  "homepage": "https://github.com/rafaelacss21/Natours#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "compile:sass": "node-sass sass/main.scss css/style.comp.css",
+  "watch:sass": "nodemon -e scss -x \"npm run compile:sass\""
+}
